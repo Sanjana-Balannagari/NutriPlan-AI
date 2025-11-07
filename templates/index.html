@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container py-5">
+  <div class="text-center mb-5">
+    <h1 class="display-5 fw-bold text-primary">NutriPlan AI</h1>
+    <p class="lead">Type your idea – get a plan instantly!</p>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="input-group input-group-lg mb-4 shadow-sm">
+        <input type="text" id="query" class="form-control" placeholder="e.g., vegan lunch under 600 calories">
+        <button class="btn btn-primary" id="generate">Generate</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="glass-card p-3">
+        <a class="text-decoration-none" data-bs-toggle="collapse" href="#filters">
+          <h5 class="mb-0">Advanced Filters <i class="bi bi-chevron-down"></i></h5>
+        </a>
+        <div class="collapse" id="filters">
+          <div class="row mt-3 g-3">
+            <div class="col-md-4">
+              <label class="form-label">Calories</label>
+              <input type="range" class="form-range" id="calories" min="1200" max="4000" value="2000">
+              <small class="text-muted"><span id="calVal">2000</span> kcal</small>
+            </div>
+            <div class="col-md-8">
+              <label class="form-label">Preferences</label>
+              <div class="row g-2">
+                {% for t in ['vegan','low_carb','high_protein','healthy','lunch'] %}
+                <div class="col-6 col-md-4">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="{{ t }}" id="{{ t }}">
+                    <label class="form-check-label text-capitalize" for="{{ t }}">{{ t.replace('_',' ') }}</label>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="results" class="mt-5"></div>
+</div>
+
+<!-- Dark mode toggle -->
+<button class="btn btn-outline-secondary position-fixed bottom-0 end-0 m-3" onclick="document.body.classList.toggle('dark-mode')">
+  <i class="bi bi-moon"></i>
+</button>
+{% endblock %}
