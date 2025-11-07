@@ -10,11 +10,25 @@ data/raw/food.csv
 data/raw/food_nutrient.csv
 data/raw/nutrient.csv
 
+# Final GitHub Repo (Clean & Fast)
+
+textNutriPan-AI/
+├── app.py
+├── models/
+├── static/
+├── templates/
+├── scripts/
+├── utils/
+├── requirements.txt
+├── README.md
+└── .gitignore
+Large CSVs stay on your PC → Not uploaded → GitHub happy
+
 # **NutriPlan AI** – USDA-Powered Meal Recommender
 
 A **dynamic, user-friendly web app** that recommends **personalized 3-meal plans** based on **calorie goals**, **dietary preferences**, and **natural language input** (e.g., *"vegan lunch under 600 calories"*).
 
-**Precision@5 = 1.000** | **No OpenAI Key Required** | **Deployable in 3 Minutes**
+**Precision@5 = 1.000** | **OpenAI Key Required** | **Live Demo**
 
 ---
 
