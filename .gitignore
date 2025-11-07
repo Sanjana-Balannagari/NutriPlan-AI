@@ -1,0 +1,20 @@
+echo "# Data files (too big)
+data/raw/*
+data/processed/*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+myenv/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db" > .gitignore
