@@ -1,0 +1,179 @@
+{
+  "meals": [
+    {
+      "name": "Oatmeal with Berries",
+      "calories": 350,
+      "meal_type": "Breakfast",
+      "tags": "healthy,quick,vegan",
+      "ingredients": ["oats", "almond milk", "blueberries", "banana", "chia seeds"]
+    },
+    {
+      "name": "Greek Yogurt Parfait",
+      "calories": 400,
+      "meal_type": "Breakfast",
+      "tags": "healthy,protein,quick",
+      "ingredients": ["Greek yogurt", "granola", "honey", "strawberries", "blueberries"]
+    },
+    {
+      "name": "Veggie Omelette",
+      "calories": 300,
+      "meal_type": "Breakfast",
+      "tags": "high-protein,vegetarian",
+      "ingredients": ["eggs", "spinach", "bell peppers", "onions", "cheese"]
+    },
+    {
+      "name": "Avocado Toast",
+      "calories": 450,
+      "meal_type": "Breakfast",
+      "tags": "healthy,vegan",
+      "ingredients": ["whole grain bread", "avocado", "tomato", "salt", "pepper"]
+    },
+    {
+      "name": "Quinoa Salad",
+      "calories": 500,
+      "meal_type": "Lunch",
+      "tags": "healthy,vegan",
+      "ingredients": ["quinoa", "chickpeas", "cucumber", "tomato", "lemon juice"]
+    },
+    {
+      "name": "Turkey Wrap",
+      "calories": 600,
+      "meal_type": "Lunch",
+      "tags": "protein,quick",
+      "ingredients": ["whole wheat wrap", "turkey breast", "lettuce", "tomato", "mustard"]
+    },
+    {
+      "name": "Chicken Caesar Salad",
+      "calories": 700,
+      "meal_type": "Lunch",
+      "tags": "protein,healthy",
+      "ingredients": ["grilled chicken", "romaine lettuce", "Caesar dressing", "croutons", "parmesan cheese"]
+    },
+    {
+      "name": "Lentil Soup",
+      "calories": 400,
+      "meal_type": "Lunch",
+      "tags": "vegan,healthy",
+      "ingredients": ["lentils", "carrots", "celery", "onion", "vegetable broth"]
+    },
+    {
+      "name": "Grilled Chicken Bowl",
+      "calories": 650,
+      "meal_type": "Lunch",
+      "tags": "protein,healthy",
+      "ingredients": ["grilled chicken", "brown rice", "broccoli", "carrots", "soy sauce"]
+    },
+    {
+      "name": "Salmon with Asparagus",
+      "calories": 700,
+      "meal_type": "Dinner",
+      "tags": "healthy,high-protein",
+      "ingredients": ["salmon fillet", "asparagus", "lemon", "garlic", "salt"]
+    },
+    {
+      "name": "Vegetable Stir-Fry",
+      "calories": 500,
+      "meal_type": "Dinner",
+      "tags": "vegan,quick",
+      "ingredients": ["mixed vegetables", "tofu", "soy sauce", "ginger", "garlic"]
+    },
+    {
+      "name": "Beef Tacos",
+      "calories": 600,
+      "meal_type": "Dinner",
+      "tags": "protein,quick",
+      "ingredients": ["ground beef", "taco shells", "lettuce", "cheese", "salsa"]
+    },
+    {
+      "name": "Pasta Primavera",
+      "calories": 550,
+      "meal_type": "Dinner",
+      "tags": "vegetarian,healthy",
+      "ingredients": ["whole wheat pasta", "mixed vegetables", "olive oil", "parmesan cheese", "basil"]
+    },
+    {
+      "name": "Stuffed Bell Peppers",
+      "calories": 500,
+      "meal_type": "Dinner",
+      "tags": "healthy,vegetarian",
+      "ingredients": ["bell peppers", "quinoa", "black beans", "corn", "cheese"]
+    },
+    {
+      "name": "Shrimp Fried Rice",
+      "calories": 600,
+      "meal_type": "Dinner",
+      "tags": "protein,quick",
+      "ingredients": ["shrimp", "rice", "peas", "carrots", "soy sauce"]
+    },
+    {
+      "name": "Chickpea Curry",
+      "calories": 450,
+      "meal_type": "Dinner",
+      "tags": "vegan,healthy",
+      "ingredients": ["chickpeas", "coconut milk", "curry powder", "spinach", "rice"]
+    },
+    {
+      "name": "BBQ Chicken",
+      "calories": 700,
+      "meal_type": "Dinner",
+      "tags": "protein,grilled",
+      "ingredients": ["chicken thighs", "BBQ sauce", "corn", "coleslaw", "baked beans"]
+    },
+    {
+      "name": "Eggplant Parmesan",
+      "calories": 600,
+      "meal_type": "Dinner",
+      "tags": "vegetarian,comfort",
+      "ingredients": ["eggplant", "marinara sauce", "mozzarella cheese", "parmesan cheese", "basil"]
+    },
+    {
+      "name": "Fish Tacos",
+      "calories": 550,
+      "meal_type": "Dinner",
+      "tags": "healthy,quick",
+      "ingredients": ["white fish", "taco shells", "cabbage", "lime", "salsa"]
+    },
+    {
+      "name": "Vegetable Quiche",
+      "calories": 500,
+      "meal_type": "Dinner",
+      "tags": "vegetarian,comfort",
+      "ingredients": ["eggs", "spinach", "cheese", "pie crust", "onions"]
+    },
+    {
+      "name": "Chicken Fajitas",
+      "calories": 600,
+      "meal_type": "Dinner",
+      "tags": "protein,quick",
+      "ingredients": ["chicken breast", "bell peppers", "onions", "tortillas", "salsa"]
+    },
+    {
+      "name": "Mushroom Risotto",
+      "calories": 650,
+      "meal_type": "Dinner",
+      "tags": "vegetarian,comfort",
+      "ingredients": ["arborio rice", "mushrooms", "vegetable broth", "parmesan cheese", "onions"]
+    },
+    {
+      "name": "Pork Chops with Apples",
+      "calories": 700,
+      "meal_type": "Dinner",
+      "tags": "protein,comfort",
+      "ingredients": ["pork chops", "apples", "onions", "cinnamon", "salt"]
+    },
+    {
+      "name": "Vegetable Samosas",
+      "calories": 400,
+      "meal_type": "Dinner",
+      "tags": "vegan,comfort",
+      "ingredients": ["potatoes", "peas", "spices", "flour", "oil"]
+    },
+    {
+      "name": "Cabbage Roll Casserole",
+      "calories": 600,
+      "meal_type": "Dinner",
+      "tags": "comfort,healthy",
+      "ingredients": ["ground beef", "cabbage", "rice", "tomato sauce", "onions"]
+    }
+  ]
+}

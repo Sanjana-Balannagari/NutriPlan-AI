@@ -1,10 +1,11 @@
 # app.py
-from flask import Flask, render_template, request, jsonify, send_file
-from models.recommender import get_meal_plan
-from models.openai_parser import parse_query
-from utils.pdf_generator import generate_pdf
+from flask import Flask, render_template, request, jsonify
+import logging
+
+from models.llm_recommender import get_llm_meal_plan
 
 app = Flask(__name__)
+logging.basicConfig(level=logging.INFO)
 
 @app.route("/")
 def index():
@@ -12,28 +13,27 @@ def index():
 
 @app.route("/generate", methods=["POST"])
 def generate():
-    data = request.get_json()
-    query = data.get("query", "")
-    calories = int(data.get("calories", 2000))
-    prefs = [p.strip() for p in data.get("prefs", "").split(",") if p.strip()]
+    try:
+        data = request.get_json(force=True)
+        if not data:
+            return jsonify({"error": "No JSON payload"}), 400
 
-    # Use parser (OpenAI or fallback)
-    if query:
-        cal, tags = parse_query(query)
-        calories = cal
-        prefs.extend(tags)
+        query = data.get("query", "").strip()
+        calories = int(data.get("calories", 2000))
 
-    plan, _ = get_meal_plan(prefs, calories, k=3)
-    total = sum(m['calories'] for m in plan if m['id'] != 'N/A')
-    for m in plan:
-        m['total_calories'] = total
-    return jsonify(plan)
+        logging.info(f"Request → query: '{query}', calories: {calories}")
 
-@app.route("/export_pdf", methods=["POST"])
-def export_pdf():
-    plan = request.get_json() or []
-    pdf = generate_pdf(plan)
-    return send_file(pdf, as_attachment=True, download_name="meal_plan.pdf", mimetype="application/pdf")
+        plan = get_llm_meal_plan(query, calories)
+
+        if "error" in plan:
+            return jsonify(plan), 500
+
+        return jsonify(plan)
+
+    except Exception as e:
+        logging.exception("Server error")
+        return jsonify({"error": "Internal server error"}), 500
+
 
 if __name__ == "__main__":
     app.run(debug=True)

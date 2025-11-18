@@ -33,6 +33,12 @@ python scripts/generate_meals.py
 
 ---
 
+### Tech Stack
+- Python + Flask
+- OpenAI GPT-3.5-turbo
+- Pandas + USDA dataset
+- Pure HTML/CSS/JS frontend
+
 ## Project Structure
 
 ```text

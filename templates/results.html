@@ -1,0 +1,27 @@
+<!-- templates/results.html -->
+<div id="results" class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+    {% for meal in plan %}
+    <div class="meal-card bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 transform transition hover:scale-105">
+        <h3 class="text-xl font-bold text-indigo-600 dark:text-indigo-400">
+            {{ meal.type }}
+        </h3>
+        <h4 class="mt-2 text-lg font-medium">{{ meal.name }}</h4>
+        <p class="text-gray-600 dark:text-gray-300">
+            <strong>Calories:</strong> {{ meal.calories }} kcal
+        </p>
+        {% if meal.tags %}
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+            {{ meal.tags|join(", ") }}
+        </p>
+        {% endif %}
+        {% if meal.id == "N/A" %}
+        <p class="mt-2 text-red-500 text-sm">No match found for this slot.</p>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+
+<div class="mt-6 text-center">
+    <p class="text-lg font-semibold">Total: <span id="total-calories"></span> kcal</p>
+    <button id="export-pdf" class="mt-4 btn-primary">Download PDF</button>
+</div>

@@ -1,0 +1,143 @@
+[
+    {
+        "name": "Vegan Chickpea Salad",
+        "calories": 400,
+        "meal_type": "Lunch",
+        "tags": "vegan,high_protein,healthy",
+        "ingredients": ["chickpeas","tomatoes","cucumbers","red onion","olive oil"]
+    },
+    {
+        "name": "Egg and Avocado Toast",
+        "calories": 350,
+        "meal_type": "Breakfast",
+        "tags": "low_carb,high_protein,healthy",
+        "ingredients": ["eggs","avocado","whole grain bread","salt","pepper"]
+    },
+    {
+        "name": "Grilled Chicken Caesar Salad",
+        "calories": 500,
+        "meal_type": "Lunch",
+        "tags": "high_protein,low_carb,healthy",
+        "ingredients": ["chicken breast","romaine lettuce","parmesan cheese","croutons","caesar dressing"]
+    },
+    {
+        "name": "Vegan Quinoa Stir-Fry",
+        "calories": 450,
+        "meal_type": "Dinner",
+        "tags": "vegan,high_protein,low_carb",
+        "ingredients": ["quinoa","tofu","bell peppers","snow peas","soy sauce"]
+    },
+    {
+        "name": "Greek Yogurt Parfait",
+        "calories": 300,
+        "meal_type": "Breakfast",
+        "tags": "low_carb,high_protein,healthy",
+        "ingredients": ["greek yogurt","berries","granola","honey","almonds"]
+    },
+    {
+        "name": "Grilled Salmon Bowl",
+        "calories": 600,
+        "meal_type": "Dinner",
+        "tags": "high_protein,low_carb,healthy",
+        "ingredients": ["salmon","brown rice","kale","avocado","sesame seeds"]
+    },
+    {
+        "name": "Vegan Lentil Soup",
+        "calories": 350,
+        "meal_type": "Lunch",
+        "tags": "vegan,high_protein,healthy",
+        "ingredients": ["lentils","carrots","celery","onion","garlic"]
+    },
+    {
+        "name": "Spinach and Feta Omelette",
+        "calories": 400,
+        "meal_type": "Breakfast",
+        "tags": "low_carb,high_protein,healthy",
+        "ingredients": ["eggs","spinach","feta cheese","olive oil","salt"]
+    },
+    {
+        "name": "Shrimp and Avocado Wrap",
+        "calories": 450,
+        "meal_type": "Lunch",
+        "tags": "high_protein,low_carb,healthy",
+        "ingredients": ["shrimp","avocado","whole wheat wrap","lettuce","tomato"]
+    },
+    {
+        "name": "Vegan Black Bean Quinoa Bowl",
+        "calories": 500,
+        "meal_type": "Dinner",
+        "tags": "vegan,high_protein,low_carb",
+        "ingredients": ["black beans","quinoa","corn","red cabbage","avocado"]
+    },
+    {
+        "name": "Chia Seed Pudding",
+        "calories": 320,
+        "meal_type": "Breakfast",
+        "tags": "vegan,low_carb,healthy",
+        "ingredients": ["chia seeds","almond milk","honey","vanilla extract","berries"]
+    },
+    {
+        "name": "Turkey and Quinoa Stuffed Peppers",
+        "calories": 420,
+        "meal_type": "Lunch",
+        "tags": "high_protein,low_carb,healthy",
+        "ingredients": ["ground turkey","quinoa","bell peppers","tomato sauce","cheese"]
+    },
+    {
+        "name": "Vegan Cauliflower Rice Stir-Fry",
+        "calories": 380,
+        "meal_type": "Dinner",
+        "tags": "vegan,low_carb,healthy",
+        "ingredients": ["cauliflower rice","tofu","broccoli","carrots","soy sauce"]
+    },
+    {
+        "name": "Green Smoothie Bowl",
+        "calories": 350,
+        "meal_type": "Breakfast",
+        "tags": "vegan,low_carb,healthy",
+        "ingredients": ["spinach","banana","almond milk","chia seeds","granola"]
+    },
+    {
+        "name": "Grilled Veggie Wrap",
+        "calories": 400,
+        "meal_type": "Lunch",
+        "tags": "vegan,low_carb,healthy",
+        "ingredients": ["zucchini","bell peppers","onions","hummus","whole wheat wrap"]
+    },
+    {
+        "name": "Baked Salmon with Asparagus",
+        "calories": 480,
+        "meal_type": "Dinner",
+        "tags": "high_protein,low_carb,healthy",
+        "ingredients": ["salmon fillet","asparagus","lemon","olive oil","garlic"]
+    },
+    {
+        "name": "Vegan Lentil Tacos",
+        "calories": 380,
+        "meal_type": "Lunch",
+        "tags": "vegan,high_protein,healthy",
+        "ingredients": ["lentils","taco shells","avocado","salsa","lettuce"]
+    },
+    {
+        "name": "Egg White Vegetable Omelette",
+        "calories": 320,
+        "meal_type": "Breakfast",
+        "tags": "low_carb,high_protein,healthy",
+        "ingredients": ["egg whites","spinach","tomatoes","mushrooms","feta cheese"]
+    },
+    {
+        "name": "Chicken and Quinoa Bowl",
+        "calories": 450,
+        "meal_type": "Dinner",
+        "tags": "high_protein,low_carb,healthy",
+        "ingredients": ["grilled chicken","quinoa","roasted vegetables","hummus","feta cheese"]
+    },
+    {
+        "name": "Vegan Sweet Potato Buddha Bowl",
+        "calories": 420,
+        "meal_type": "Lunch",
+        "tags": "vegan,low_carb,healthy",
+        "ingredients": ["sweet potato","black beans","kale","avocado","tahini dressing"]
+    }
+    // Add more meals here...
+]
